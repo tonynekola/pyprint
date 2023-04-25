@@ -10,10 +10,13 @@ def parse_commandline_args():
     # Add arguments
     parser.add_argument('-file', '-f', help='path to file you would like print')
 
+    return parser.parse_args()
+
 
 
 
 def print_on_unix(file_to_print):
+    print('printing of Unix system')
     import cups
     
     # Connect to the CUPS server
@@ -56,7 +59,7 @@ def print_on_windows(file_to_print):
 
 def main():
     # Parse arguments
-    args = parser.parse_args()
+    args = parse_commandline_args()
 
     file_path = r'/Users/tonynekola/Desktop/report-2022-09-26_18-11-13.html'
     file_path = args.file
@@ -64,4 +67,6 @@ def main():
     print_on_unix(file_path)
 
 if '__name__' == '__main__':
+    print('Stating Print')
     main()
+print('Stam')

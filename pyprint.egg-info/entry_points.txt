@@ -1,0 +1,2 @@
+[console_scripts]
+pyprint = src.printer.air_printer:main

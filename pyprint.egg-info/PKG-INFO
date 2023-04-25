@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyprint
+Version: 1.0
+Summary: A unified printer script for both Windows and Unix system
+Home-page: https://github.com/tonynekola/pyprint
+Author: Tony Nekola
+Author-email: nekolaton11@gmail.com
