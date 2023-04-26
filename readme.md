@@ -1,3 +1,14 @@
+Pre-requesets 
+
+Mac 
+```
+brew install unoconv
+```
+
+---
+
+
+
 To install the package please use the following command 
 
 ```
