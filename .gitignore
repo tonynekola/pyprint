@@ -1,3 +1,8 @@
 /build
 /dist
 /pyrint.egg-info
+/.vscode
+/server
+pyprint.egg-info/requires.txt
+src/printer/converter.py
+pyprint.egg-info/requires.txt
