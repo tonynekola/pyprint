@@ -1,1 +1,2 @@
+PyMuPDF>=1.22.1
 pycups>=2.0.1
